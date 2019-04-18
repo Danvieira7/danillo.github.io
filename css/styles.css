@@ -1,0 +1,210 @@
+/*-----------------GENERAL--------------------*/
+p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: black;   
+}
+
+.p{
+    text-align: center;
+    color: gray;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+}
+
+h3, h5{
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+}
+
+hr{width: 90%;}
+
+/*------------NAVBAR-------------*/
+.nav-link:hover,.navbar-brand:hover{
+    color:goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+.navbar-brand, .nav-link{
+    font-family: 'Julius Sans One', sans-serif;
+    color:gray;
+    border-bottom: 2px solid rgb(22, 22, 22);
+}
+
+/*--------------HOME--------------*/
+.img-fluid{
+    display: block;
+    width: 100%;
+}
+
+/*-------------SKILLS-----------------*/
+
+.tech{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between; 
+    border-radius: 5px;
+}
+
+.techdiv{
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.techdiv i {
+    font-size: 80px;
+}
+
+i{
+    font-size: 100px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+/*------------PROJECTS----------------*/
+
+
+.firstrow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.description{
+    font-size: 16px;
+}
+
+.img{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.project1, .project2, .project3, .project4{
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    padding: 20px;
+}
+.projects{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.linkbtn{
+    padding-top: 40px; 
+    color: black;
+}
+
+/*-----------FOOTER-------------*/
+
+#photobox{
+    display: flex;
+    flex-direction:  column ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#photo{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 5px solid gray;
+}
+
+#contact{
+    display: flex;
+    flex-direction:  column ;
+    align-content: center;
+    justify-content: center;
+}
+
+#contactbox{
+    display: flex;
+    flex-flow: row ;
+    align-items: center;
+    justify-content: space-around; 
+    margin-top: 0%;  
+    width: 500px;
+    padding: 30px;
+}
+
+.cont { color: gray; }
+
+footer {
+    display: flex;
+    flex-flow: column;
+}
+
+/*----------------HOVERS------------------*/
+
+.techdiv:hover{
+    animation: shake 0.5s; 
+    animation-iteration-count: 0.5; 
+}
+
+.cont:hover{
+    animation: shake 0.5s; 
+    animation-iteration-count: 0.5; 
+    color: goldenrod;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+}
+
+
+/*----------------RESPONSIVENESS----------------------*/
+
+@media screen and (max-width: 700px){
+    .img{
+        width: 100%;
+    }
+    .project1, .project2, .project3{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; 
+        padding: 20px;
+    }
+    .description, h3, h5{
+        text-align: center;
+    }
+    .linkbtn, .usedtech{
+        text-align: center;
+    }
+    .projects{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+}
+
+/*---------------ANIMATION-------------------*/
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
