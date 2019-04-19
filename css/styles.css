@@ -35,6 +35,10 @@ hr{width: 90%;}
     border-bottom: 2px solid rgb(22, 22, 22);
 }
 
+.navbar-toggle-icon{
+    color: #f00; /* Changes regular toggle color */
+}
+
 /*--------------HOME--------------*/
 .img-fluid{
     display: block;
@@ -58,7 +62,6 @@ hr{width: 90%;}
     text-align: center;
     align-self: center;
     justify-content: center;
-    max-width: 1000px;
 }
 
 .techdiv i {
@@ -169,7 +172,7 @@ footer {
 
 /*----------------RESPONSIVENESS----------------------*/
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
     .img{
         width: 100%;
     }
@@ -191,6 +194,14 @@ footer {
         justify-content: center;
     }
 
+    .techdiv{
+        height: 80px;
+        width: 80px;
+    }
+
+    #techicon{
+        font-size: 60px;
+    }
 }
 
 /*---------------ANIMATION-------------------*/
