@@ -18,7 +18,7 @@
     <title>Danillo Vieira</title>
     <link rel="icon" href="img/newone.png">
 </head>
-<body>
+<body scroll="no" style="overflow-x: hidden">
     <nav class="navbar navbar-expand-md  sticky-top" style="background-color: rgb(22, 22, 22)">
         
         <spam class="navbar-text">
@@ -44,8 +44,20 @@
         </div>
     </nav>
     <div class="home" id="home">
-        <img src="img/floor.jpg" class="img-fluid">
+        <div class="homecontent">
+            <h3 class="intro" id="intro">Hi, my name is Dan Vieira</h3>
+            <p class="intro">
+                I am a full-stack web developer with an extensive background in music composition and personal training. 
+                Just as music makes our lives more enjoyable and meaningful, I hope to use technology to do the same. 
+                I am passionate about finding effective solutions to problems, and I believe the skills I acquired 
+                in General Assembly's Web Development Immersive course combined with my prior educational and professional experiences 
+                have enhanced my ability to be an efficient professional.
+            </p>
+        </div>
     </div>
+    <br/>
+    <br/>
+
     <article class="skills" id="skills">
         <div class="tech" >
             <br><h1>Skills</h1><hr><br>
@@ -73,28 +85,28 @@
                 <div class="techdiv" style="color:white; font-size: 1px"><i id="techicon" class="devicon-heroku-plain colored"></i>heroku</div>
              
             </div>
-            <br>
-            <br>
         </div>
     </article>
-    <br>
     <br>
     <article class="projects" id="projects">
         <br>
         <h1>Projects</h1>
         <hr>
-        <div class="project4" >
+        <div class="project2" >
             <div class="content4">
                 <br>
                 <h3>BandMates</h3>
-                <p class="description">
-                    Band Mates Is an app which the idea came from my frustration as a forein musicias <br/>
-                    who wants to play in a band but doesn't know anybody in town. BandMates conects musicians<br/> 
-                    to bands seeking to hire new band members through. In the app the users will be able to <br/>
-                    post what kind of band they're looking for and see other musicians profiles and posts.          
-                </p>
-                <h5>TECHNOLOGIES USED: </h5>
+                <div>
+                    <p class="description">
+                        Band Mates Is an app which the idea came from my frustration as a forein musicias 
+                        who wants to play in a band but doesn't know anybody in town. BandMates conects musicians 
+                        to bands seeking to hire new band members through. In the app the users will be able to 
+                        post what kind of band they're looking for and see other musicians profiles and posts.          
+                    </p>
+                </div>
+                <br/>
                 <div class="usedtech">
+                    <h5>TECHNOLOGIES USED: </h5>
                     <i class="devicon-html5-plain-wordmark colored" style="font-size: 40px"></i>
                     <i class="devicon-css3-plain-wordmark colored" style="font-size: 40px"></i>
                     <i class="devicon-mongodb-plain-wordmark colored" style="font-size: 40px"></i>
@@ -105,11 +117,12 @@
                     <i class="devicon-heroku-plain colored" style="font-size: 40px"></i>
 
                 </div>
-                
+                <br/>
                 <div class="linkbtn">
                     <a href="https://github.com/Danvieira7/BandMates" target="_blank" class="btn"><i class="fab fa-github-square" style="font-size: 20px"></i> Github</a>
                     <a href="https://band-mates.herokuapp.com/" target="_blank" class="btn"><i class="fas fa-globe-americas" style="font-size: 20px"></i> Visit</a>
                 </div>
+                
             </div>
             
             <img src="img/bandmates.png" class="img">
@@ -123,8 +136,8 @@
                 <br>
                 <h3>The Ink Challenger</h3>
                 <p class="description">
-                    This app is a tool for Tattoo shops,designed to bring clients to the shop by offering<br>
-                    a challenge to the client. The client will pay a fixed fee and have the opportunity of<br>
+                    This app is a tool for Tattoo shops,designed to bring clients to the shop by offering
+                    a challenge to the client. The client will pay a fixed fee and have the opportunity of
                     getting a affordable tattoo that will be generated randomly by the app.
                 </p>
                 <h5>TECHNOLOGIES USED: </h5>
@@ -138,6 +151,7 @@
                     <i class="devicon-heroku-plain colored" style="font-size: 40px"></i>
                     <i class="devicon-google-plain-wordmark colored" style="font-size: 40px"></i>
                 </div>
+                <br/>
                 <div class="linkbtn">
                     <a href="https://github.com/Danvieira7/TheInkChallenger" target="_blank" class="btn"><i class="fab fa-github-square" style="font-size: 20px"></i> Github</a>
                     <a href="http://theinkchallenger.herokuapp.com/" target="_blank" class="btn"><i class="fas fa-globe-americas" style="font-size: 20px"></i> Visit</a>
@@ -151,9 +165,9 @@
                 <br>
                 <h3>Pocket PT</h3>
                 <p class="description">
-                    Because of my background in Fitness and nutrition, I developed Pocket Pt. The biggest<br>
-                    problem with fitness app, is that it normally doesn't gives people all resources needed<br> 
-                    for you to get to your goal in a simple way. Pocket Pt is an app where you don't need<br> 
+                    Because of my background in Fitness and nutrition, I developed Pocket Pt. The biggest
+                    problem with fitness app, is that it normally doesn't gives people all resources needed 
+                    for you to get to your goal in a simple way. Pocket Pt is an app where you don't need 
                     to research multiple sources to get to your fitness goals.
                     
                 </p>
@@ -168,7 +182,7 @@
                     <i class="devicon-heroku-plain colored" style="font-size: 40px"></i>
                     <i class="devicon-google-plain-wordmark colored" style="font-size: 40px"></i>
                 </div>
-                
+                <br/>
                 <div class="linkbtn">
                     <a href="https://github.com/Danvieira7/pocket-pt" target="_blank" class="btn"><i class="fab fa-github-square" style="font-size: 20px"></i> Github</a>
                     <a href="https://pocket-pt.herokuapp.com/" target="_blank" class="btn"><i class="fas fa-globe-americas" style="font-size: 20px"></i> Visit</a>
@@ -181,14 +195,15 @@
         <hr>
 
         <div class="project1">
-            <img src="img/star-ride.png" class="img">
-            <div class="content1">
-                <div class="content2">
+            
+            <div class="project1">
+                <img src="img/star-ride.png" class="img">
+                <div class="content3">
                     <br>
                     <h3>Star Ride</h3>
                     <p class="description">
-                        This was my first project after 3 weeks of course, Star Ride is a game inspired by<br>
-                        Atari's Space invaders and Star Wars.The goal of the game is to stay alive as long<br>
+                        This was my first project after 3 weeks of course, Star Ride is a game inspired by
+                        Atari's Space invaders and Star Wars.The goal of the game is to stay alive as long
                         as you can and score points based on that time, Enjoy it! .
                     </p>
                     <br>
@@ -205,14 +220,14 @@
                         <a href="https://github.com/Danvieira7/star-ride" target="_blank" class="btn"><i class="fab fa-github-square" style="font-size: 20px"></i> Github</a>
                         <a href="https://danvieira7.github.io/star-ride/index.html" target="_blank" class="btn"><i class="fas fa-globe-americas" style="font-size: 20px"></i> Visit</a>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
     </article>
     <br>
     <br>
     <h1>Contact</h1>
-    <footer class="page-footer font-small   "style="background-color: rgba(22, 22, 22)" >
+    <footer class="page-footer font-small   "style="background-color: rgb(22, 22, 22)" >
         <div class="row" id="contact">
             <div  id="photobox">
                 <img id="photo" src="img/photo.jpeg">

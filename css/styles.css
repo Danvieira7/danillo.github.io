@@ -1,4 +1,9 @@
 /*-----------------GENERAL--------------------*/
+html{
+    width: 100%;
+    /* overflow-x: hidden;
+    scroll-margin-right: no;  */
+}
 p{
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
@@ -40,10 +45,38 @@ hr{width: 90%;}
 }
 
 /*--------------HOME--------------*/
-.img-fluid{
+.home{
+    /* max-height: 600px; */
+    height: 100vh;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url("https://www.mintfloorcoverings.com/wp-content/uploads/2015/08/amazing-light-wood-floor-samples-caribou-designer-white-oak-lauzon-hardwood-flooring-19.jpg");
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.intro{
+    color: gray;  
+}
+.intro{
+    border-bottom: 2px gray solid;
+}
+.homecontent{
+    margin-top: 15%;
+    max-width: 600px;
+    width: 100%;
+    text-align: justify;
+}
+
+/* .img-fluid{
     display: block;
     width: 100%;
-}
+} */
 
 /*-------------SKILLS-----------------*/
 
@@ -75,17 +108,22 @@ i{
     justify-content: center;
 }
 
-/*------------PROJECTS----------------*/
-
-
 .firstrow{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
+/*------------PROJECTS----------------*/
+
 .description{
     font-size: 16px;
+    text-align: justify;
+    width: 100%;
+}
+
+.content1, .content2, .content3, .content4{
+    width: 50%;
 }
 
 .img{
@@ -97,9 +135,9 @@ i{
 .project1, .project2, .project3, .project4{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: center; */
     padding: 20px;
 }
+
 .projects{
     display: flex;
     flex-flow: column wrap;
@@ -107,8 +145,8 @@ i{
 }
 
 .linkbtn{
-    padding-top: 40px; 
-    color: black;
+    display: flex;
+    flex-direction: row;
 }
 
 /*-----------FOOTER-------------*/
@@ -125,7 +163,7 @@ i{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    border: 5px solid gray;
+    border: 5px solid rgba(169,169,169, 0.5);
 }
 
 #contact{
@@ -172,16 +210,28 @@ footer {
 
 /*----------------RESPONSIVENESS----------------------*/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1000px){
     .img{
+        max-width: 600px;
         width: 100%;
     }
-    .project1, .project2, .project3{
+
+    .project1, .project2, .project3, .project4{
         display: flex;
+        /* flex-wrap: wrap; */
         flex-flow: row wrap;
         justify-content: center; 
         padding: 20px;
+        text-align: center;
     }
+
+    .project3, .project1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    
     .description, h3, h5{
         text-align: center;
     }
