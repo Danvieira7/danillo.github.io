@@ -49,7 +49,8 @@ hr{width: 90%;}
 /*--------------HOME--------------*/
 .home{
     /* max-height: 600px; */
-    height: 100vh;
+    max-height: 700px;
+    height: 100%;
     background-image: 
     linear-gradient(
         rgba(0, 0, 0, 0.3),
@@ -67,6 +68,8 @@ hr{width: 90%;}
 }
 
 .homecontent{
+    max-height: 700px;
+    height: 100%;
     margin-top: 15%;
     max-width: 600px;
     width: 100%;
@@ -218,10 +221,11 @@ footer {
     
     
     .homecontent{
-        margin-top: 5%;
+        margin-top: 20px;
         width: 70%;
         text-align: justify;
     }
+    
     
     .img{
         max-width: 600px;
@@ -266,6 +270,15 @@ footer {
     }
     #contactbox{
         justify-content: center;
+    }
+}
+
+@media screen and (max-height: 600px){
+    
+    .homecontent{
+        margin-top: 20px;
+        width: 94%;
+        text-align: justify;
     }
 }
 
