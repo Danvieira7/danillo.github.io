@@ -1,8 +1,10 @@
 /*-----------------GENERAL--------------------*/
-html{
+html, body{
     width: 100%;
-    /* overflow-x: hidden;
-    scroll-margin-right: no;  */
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 p{
     font-family: 'Rajdhani', sans-serif;
@@ -56,16 +58,14 @@ hr{width: 90%;}
     url("https://www.mintfloorcoverings.com/wp-content/uploads/2015/08/amazing-light-wood-floor-samples-caribou-designer-white-oak-lauzon-hardwood-flooring-19.jpg");
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
 .intro{
     color: gray;  
-}
-.intro{
     border-bottom: 2px gray solid;
 }
+
 .homecontent{
     margin-top: 15%;
     max-width: 600px;
@@ -147,6 +147,7 @@ i{
 .linkbtn{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 /*-----------FOOTER-------------*/
@@ -183,7 +184,10 @@ i{
     padding: 30px;
 }
 
-.cont { color: gray; }
+.cont { 
+    color: gray;
+    margin: 5px; 
+}
 
 footer {
     display: flex;
@@ -211,11 +215,19 @@ footer {
 /*----------------RESPONSIVENESS----------------------*/
 
 @media screen and (max-width: 1000px){
+    
+    
+    .homecontent{
+        margin-top: 15%;
+        width: 70%;
+        text-align: justify;
+    }
+    
     .img{
         max-width: 600px;
         width: 100%;
     }
-
+    
     .project1, .project2, .project3, .project4{
         display: flex;
         /* flex-wrap: wrap; */
@@ -224,7 +236,7 @@ footer {
         padding: 20px;
         text-align: center;
     }
-
+    
     .project3, .project1{
         display: flex;
         flex-direction: column-reverse;
@@ -243,14 +255,17 @@ footer {
         flex-flow: column wrap;
         justify-content: center;
     }
-
+    
     .techdiv{
         height: 80px;
         width: 80px;
     }
-
+    
     #techicon{
         font-size: 60px;
+    }
+    #contactbox{
+        justify-content: center;
     }
 }
 
