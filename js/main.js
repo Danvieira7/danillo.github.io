@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
     $("a").on('click', function (event) {
         if (this.hash !== "") {
@@ -13,5 +15,7 @@ $(document).ready(function () {
 });
 
 $('.navbar-nav>li>a').on('click', function(){
+    console.log("hitting")
     $('.navbar-collapse').collapse('hide');
 });
+
