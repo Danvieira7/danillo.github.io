@@ -1,3 +1,9 @@
+/*-----------------CSS RESET--------------------*/
+
+
+
+
+
 /*-----------------GENERAL--------------------*/
 html, body{
     width: 100%;
@@ -150,7 +156,7 @@ i{
 .linkbtn{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: baseline;
 }
 
 /*-----------FOOTER-------------*/
@@ -181,9 +187,9 @@ i{
     display: flex;
     flex-flow: row ;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: center; 
     margin-top: 0%;  
-    width: 500px;
+    /* width: 500px; */
     padding: 30px;
 }
 
@@ -251,14 +257,21 @@ footer {
     .description, h3, h5{
         text-align: center;
     }
-    .linkbtn, .usedtech{
+    .linkbtn, .usedtech, #contactbox{
         text-align: center;
+        justify-content: center;
     }
     .projects{
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
     }
+    
+    /* .linkbtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+    } */
     
     .techdiv{
         height: 80px;
@@ -268,11 +281,11 @@ footer {
     #techicon{
         font-size: 60px;
     }
-    #contactbox{
+    /* #contactbox{
         justify-content: center;
         align-content: center;
         text-align: center;
-    }
+    } */
 }
 
 @media screen and (max-height: 600px){
@@ -281,6 +294,11 @@ footer {
         margin-top: 20px;
         width: 94%;
         text-align: justify;
+    }
+    
+    .linkbtn, .usedtech, #contactbox{
+        text-align: center;
+        justify-content: center;
     }
 }
 
