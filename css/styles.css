@@ -54,9 +54,30 @@ hr{width: 90%;}
 }
 
 /*--------------HOME--------------*/
-.home{
-    /* max-height: 600px; */
-    /* max-height: 700px; */
+
+.home { 
+    /* The image used */
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url("https://www.mintfloorcoverings.com/wp-content/uploads/2015/08/amazing-light-wood-floor-samples-caribou-designer-white-oak-lauzon-hardwood-flooring-19.jpg");
+  
+    /* Set a specific height */
+    height: 100vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .home{
     height: 100%;
     background-image: 
     linear-gradient(
@@ -64,10 +85,7 @@ hr{width: 90%;}
         rgba(0, 0, 0, 0.3)
     ),
     url("https://www.mintfloorcoverings.com/wp-content/uploads/2015/08/amazing-light-wood-floor-samples-caribou-designer-white-oak-lauzon-hardwood-flooring-19.jpg");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+} */
 
 .intro{
     color: gray;  
@@ -228,7 +246,7 @@ footer {
     
     
     .homecontent{
-        margin-top: 20px;
+        /* margin-top: 20px; */
         width: 70%;
         text-align: justify;
     }
