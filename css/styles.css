@@ -225,13 +225,13 @@ footer {
 /*----------------HOVERS------------------*/
 
 .techdiv:hover{
-    animation: shake 0.5s; 
-    animation-iteration-count: 0.5; 
+    animation: shake 0.3s; 
+    animation-iteration-count: 0.3; 
 }
 
 .cont:hover{
-    animation: shake 0.5s; 
-    animation-iteration-count: 0.5; 
+    animation: shake 0.3s; 
+    animation-iteration-count: 0.3; 
     color: goldenrod;
 }
 
