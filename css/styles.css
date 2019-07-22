@@ -290,6 +290,10 @@ footer {
         width: 94%;
         text-align: justify;
     }
+    .content1, .content2, .content3,.content4 {
+        text-align: justify;
+        width: 100%;
+    } 
     .img{
         max-width: 600px;
         width: 100%;
