@@ -78,6 +78,13 @@ hr{width: 90%;}
     max-width: 600px;
     width: 100%;
     text-align: justify;
+    
+}
+.resume{
+    color: gray;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
 }
 
 /*-------------SKILLS-----------------*/
@@ -212,7 +219,9 @@ footer {
 .btn:hover{
     background-color: goldenrod;
 }
-
+.resume:hover{
+    color: goldenrod; 
+}
 
 /*----------------RESPONSIVENESS----------------------*/
 
@@ -230,7 +239,7 @@ footer {
         max-width: 600px;
         width: 100%;
         max-height: 300px;
-        height: 25%;
+        height: 100%;
     }
     
     .project1, .project2, .project3, .project4{
