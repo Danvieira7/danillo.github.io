@@ -257,6 +257,11 @@ footer {
         text-align: center;
     }
     
+    .content1, .content2, .content3,.content4 {
+        text-align: justify;
+        width: 100%;
+    } 
+    
     .description{
         text-align: justify;
         width: 100%
@@ -290,6 +295,12 @@ footer {
         width: 94%;
         text-align: justify;
     }
+
+    .description{
+        text-align: justify;
+        width: 100%
+    }
+
     .content1, .content2, .content3,.content4 {
         text-align: justify;
         width: 100%;
