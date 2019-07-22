@@ -257,12 +257,12 @@ footer {
         text-align: center;
     }
     
-    .description, h3, h5{
-        text-align: center;
+    .description{
+        text-align: justify;
         width: 100%
     }
 
-    .linkbtn, .usedtech, #contactbox{
+    .linkbtn, .usedtech, #contactbox, h3, h5{
         text-align: center;
         justify-content: center;
     }
