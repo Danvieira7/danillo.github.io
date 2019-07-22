@@ -4,7 +4,6 @@ html, body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    /* overflow-x: hidden; */
 }
 
 p{
@@ -29,7 +28,7 @@ h3, h5{
     color: black;
 }
 
-hr{width: 90%;}
+hr{width: 95%;}
 
 /*------------NAVBAR-------------*/
 .nav-link:hover,.navbar-brand:hover{
@@ -46,6 +45,13 @@ hr{width: 90%;}
 .navbar-toggle-icon{
     color: #f00; /* Changes regular toggle color */
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
 
 /*--------------HOME--------------*/
 
