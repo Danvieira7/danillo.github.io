@@ -108,7 +108,7 @@ hr{width: 95%;}
 .techdiv{
     display: flex;
     flex-flow: row wrap;
-    height: 200px;
+    height: 130px;
     width: 200px;
     text-align: center;
     align-self: center;
