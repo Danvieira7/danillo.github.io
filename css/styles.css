@@ -290,10 +290,8 @@ footer {
     }
     
     .techdiv{
-        max-height: 130px;
-        max-width: 200px;
-        height: 100%;
-        width: 100%;
+        max-height: 80px;
+        width: 80px;
     }
     
     #techicon{
