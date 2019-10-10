@@ -1,67 +1,62 @@
 /*-----------------GENERAL--------------------*/
-html, body{
+html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
 }
 
-p{
+p {
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
     color: black;   
 }
 
-.p{
+.p {
     text-align: center;
     color: gray;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
     color: black;
 }
 
-h3, h5{
+h3, h5 {
     font-family: 'Julius Sans One', sans-serif;
     color: black;
 }
 
-hr{width: 95%;}
+hr { width: 95%;}
 
 /*------------NAVBAR-------------*/
-.nav-link:hover,.navbar-brand:hover{
+.nav-link:hover,.navbar-brand:hover {
     color:goldenrod;
     border-bottom: 2px solid goldenrod;
 }
 
-.navbar-brand, .nav-link{
+.navbar-brand, .nav-link {
     font-family: 'Julius Sans One', sans-serif;
-    color:gray;
+    color:lightgray;
     border-bottom: 2px solid rgb(22, 22, 22);
 }
 
-.navbar-toggle-icon{
-    color: #f00;
-}
-.navbar{
+.navbar {
     position: fixed;
     width: 100%;
     top: 0;
 }
-
-
 
 /*--------------HOME--------------*/
 
 .home { 
     background-image: 
     linear-gradient(
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
     ),
-    url("https://www.mintfloorcoverings.com/wp-content/uploads/2015/08/amazing-light-wood-floor-samples-caribou-designer-white-oak-lauzon-hardwood-flooring-19.jpg");
+    url("https://img.elo7.com.br/product/zoom/112A08A/o-vaqueiro-nordestino-sertao-cod-2-00-oleo-sobre-tela.jpg");
     height: 100vh; 
     background-attachment: fixed;
     background-position: top;
@@ -70,27 +65,26 @@ hr{width: 95%;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 74px;
+    justify-content: center;
     width: 100%;
 }
 
-
-.intro{
-    color: gray;  
-    border-bottom: 2px gray solid;
+#intro {
+    font-size: 40px;
 }
 
-.homecontent{
-    max-height: 700px;
-    height: 100%;
-    margin-top: 19%;
-    max-width: 600px;
-    width: 100%;
+.intro {
+    color: lightgray;  
+    border-bottom: 2px lightgray solid;
+}
+
+.homecontent {
+    width: 70%;
     text-align: justify;
-    
 }
-.resume{
-    color: gray;
+
+.resume {
+    color: lightgray;
     text-decoration: none;
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
@@ -98,14 +92,14 @@ hr{width: 95%;}
 
 /*-------------SKILLS-----------------*/
 
-.tech{
+.tech {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between; 
     border-radius: 5px;
 }
 
-.techdiv{
+.techdiv {
     font-family: 'Rajdhani', sans-serif;
     display: flex;
     flex-flow: column;
@@ -116,18 +110,16 @@ hr{width: 95%;}
     justify-content: center;
 }
 
-.techdiv i {
-    font-size: 80px;
-}
+.techdiv i { font-size: 80px; }
 
-i{
+i {
     font-size: 100px;
     text-align: center;
     align-self: center;
     justify-content: center;
 }
 
-.firstrow{
+.firstrow {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -135,35 +127,33 @@ i{
 
 /*------------PROJECTS----------------*/
 
-.description{
+.description {
     font-size: 16px;
     text-align: justify;
     width: 100%;
 }
 
-.content1, .content2, .content3, .content4{
-    width: 50%;
-}
+.content1, .content2, .content3, .content4 { width: 50%; }
 
-.img{
+.img {
     width: 50%;
-    height: 100%;
     padding: 20px;
+    border-radius: 25px;
 }
 
-.project1, .project2, .project3, .project4{
+.project1, .project2, .project3, .project4 {
     display: flex;
     flex-flow: row wrap;
     padding: 20px;
 }
 
-.projects{
+.projects {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
 
-.linkbtn{
+.linkbtn {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
@@ -171,7 +161,7 @@ i{
 
 /*-----------FOOTER-------------*/
 
-#photobox{
+#photobox {
     display: flex;
     flex-direction:  column ;
     justify-content: center;
@@ -179,14 +169,14 @@ i{
     padding-top: 50px;
 }
 
-#photo{
+#photo {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     border: 5px solid rgba(169,169,169, 0.5);
 }
 
-#contact{
+#contact {
     display: flex;
     flex-direction:  column ;
     align-content: center;
@@ -194,15 +184,15 @@ i{
     width: 100%;
 }
 
-#contactbox{
+#contactbox {
     display: flex;
     flex-flow: row ;
     align-items: center;
     justify-content: center; 
     margin-top: 0%;  
-    /* width: 500px; */
     padding: 30px;
 }
+
 
 .cont { 
     color: gray;
@@ -216,52 +206,39 @@ footer {
 
 /*----------------HOVERS------------------*/
 
-.techdiv:hover{
+.techdiv:hover {
     animation: shake 0.3s; 
     animation-iteration-count: 0.3; 
 }
 
-.cont:hover{
+.cont:hover {
     animation-iteration-count: 0.3; 
     color: goldenrod;
 }
 
-.btn:hover{
-    background-color: goldenrod;
-}
-.resume:hover{
-    color: goldenrod; 
-}
+.btn:hover { background-color: goldenrod; }
+.resume:hover { color: goldenrod; }
 
 /*----------------RESPONSIVENESS----------------------*/
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     
-    
-    .homecontent{
-        /* margin-top: 20px; */
+    .homecontent {
         width: 70%;
         text-align: justify;
     }
     
+    .img { width: 100%; }
     
-    .img{
-        max-width: 600px;
-        width: 100%;
-        max-height: 300px;
-        height: 100%;
-    }
-    
-    .project1, .project2, .project3, .project4{
+    .project1, .project2, .project3, .project4 {
         display: flex;
-        /* flex-wrap: wrap; */
         flex-flow: row wrap;
         justify-content: center; 
         padding: 20px;
         text-align: center;
     }
     
-    .project3, .project1{
+    .project3, .project1 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -273,60 +250,39 @@ footer {
         width: 100%;
     } 
     
-    .description{
+    .description {
         text-align: justify;
         width: 100%
     }
 
-    .linkbtn, .usedtech, #contactbox, h3, h5{
+    .linkbtn, .usedtech, #contactbox, h3, h5 {
         text-align: center;
         justify-content: center;
     }
 
-    .projects{
+    .projects {
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
     }
     
-    .techdiv{
+    .techdiv {
         max-height: 80px;
         width: 80px;
     }
     
-    #techicon{
-        font-size: 60px;
-    }
+    #techicon { font-size: 60px; }
 }
 
-@media screen and (max-height: 600px){
-    
-    .home { 
-        background-image: 
-        linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        ),
-        url("https://i.imgur.com/9wfN9M0.jpg");
-        height: 100vh; 
-        background-attachment: fixed;
-        background-position: top;
-        background-repeat: no-repeat;
-        /* background-size: cover; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        top: 74px;
-        width: 100%;
-    }
-    
-    .homecontent{
+@media screen and (max-height: 600px) {
+      
+    .homecontent {
         margin-top: 85px;
         width: 94%;
         text-align: justify;
     }
 
-    .description{
+    .description {
         text-align: justify;
         width: 100%
     }
@@ -335,13 +291,10 @@ footer {
         text-align: justify;
         width: 100%;
     } 
-    .img{
-        max-width: 600px;
-        width: 100%;
-        max-height: 200px;
-        height: 100%;
-    }
-    .linkbtn, .usedtech, #contactbox{
+
+    .img { width: 100%; }
+
+    .linkbtn, .usedtech, #contactbox {
         text-align: center;
         justify-content: center;
     }
