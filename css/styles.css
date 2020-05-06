@@ -159,6 +159,10 @@ i {
     justify-content: baseline;
 }
 
+.fade-scroll {
+    opacity:0;
+}
+
 /*-----------FOOTER-------------*/
 
 #photobox {
@@ -302,7 +306,7 @@ footer {
     }
 
     .description {
-        text-align: justify;
+        text-align: center;
         width: 100%
     }
 
