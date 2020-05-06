@@ -280,12 +280,12 @@ footer {
         text-align: justify;
         width: 100%
     }
-
+    
     .linkbtn, .usedtech, #contactbox, h3, h5 {
         text-align: center;
         justify-content: center;
     }
-
+    
     .projects {
         display: flex;
         flex-flow: column wrap;
@@ -301,25 +301,28 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-      
+    
     .homecontent {
         margin-top: 85px;
         width: 94%;
         text-align: justify;
     }
-
+    
     .description {
         text-align: center;
         width: 100%
     }
-
+    
     .content1, .content2, .content3,.content4 {
         text-align: justify;
         width: 100%;
     } 
-
-    .img { width: 100%; }
-
+    
+    .img { 
+        width: 100%; 
+        height: auto;
+    }
+    
     .linkbtn, .usedtech, #contactbox {
         text-align: center;
         justify-content: center;
