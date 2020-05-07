@@ -235,7 +235,7 @@ footer {
             rgba(0, 0, 0, 0.5)
         ),
         url("https://i.imgur.com/hAY20VP.jpg");
-        height: 100vh; 
+        height: 100%; 
         background-attachment: fixed;
         background-position: top;
         background-repeat: no-repeat;
@@ -245,6 +245,7 @@ footer {
         align-items: center;
         justify-content: center;
         width: 100%;
+        text-align: center;
     }
     
     .homecontent {
@@ -306,7 +307,9 @@ footer {
     .homecontent {
         margin-top: 85px;
         width: 94%;
-        text-align: justify;
+        text-align: center;
+        padding: 10px;
+        background-size: auto;
     }
     
     .description {
